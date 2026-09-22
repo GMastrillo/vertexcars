@@ -54,7 +54,7 @@ export const VEHICLES: Vehicle[] = [
   {
     id: "porsche-cayenne-turbo-gt",
     name: "Porsche Cayenne Turbo GT Coupé",
-    badge: "Showroom Patos de Minas",
+    badge: "Showroom Jardins • SP",
     category: "suvs",
     price: 1390000,
     year: 2024,
@@ -145,7 +145,7 @@ export const VEHICLES: Vehicle[] = [
   {
     id: "porsche-panamera-gts",
     name: "Porsche Panamera GTS",
-    badge: "Showroom Patos de Minas",
+    badge: "Showroom Jardins • SP",
     category: "sedas",
     price: 1150000,
     year: 2023,

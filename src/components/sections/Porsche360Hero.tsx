@@ -191,7 +191,7 @@ export function PorscheHero({ onVideoEnded }: PorscheHeroProps) {
             </button>
 
             <a
-              href="https://wa.me/5534999999999?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20conhecer%20os%20ve%C3%ADculos%20dispon%C3%ADveis%20na%20VertexCars."
+              href="https://wa.me/5511999990000?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20conhecer%20os%20ve%C3%ADculos%20dispon%C3%ADveis%20na%20VertexCars."
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-6 py-3.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-white font-bold text-xs uppercase tracking-[0.2em] backdrop-blur-md transition-all flex items-center justify-center gap-2 font-display"

@@ -191,7 +191,7 @@ export default function HeroSection() {
       {/* Bottom CTA Bar */}
       <div className="max-w-4xl mx-auto px-4 w-full flex flex-col sm:flex-row items-center justify-center gap-4 z-10">
         <a
-          href={`https://wa.me/5534991610075?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20agendar%20uma%20apresenta%C3%A7%C3%A3o%20VIP%20do%20${encodeURIComponent(
+          href={`https://wa.me/5511999990000?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20agendar%20uma%20apresenta%C3%A7%C3%A3o%20VIP%20do%20${encodeURIComponent(
             current.name
           )}.`}
           target="_blank"

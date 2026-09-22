@@ -117,7 +117,7 @@ export default function FeaturedCars({ onSelectCar }: FeaturedCarsProps) {
                 </button>
 
                 <a
-                  href={`https://wa.me/5534991610075?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20${encodeURIComponent(
+                  href={`https://wa.me/5511999990000?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20${encodeURIComponent(
                     car.name
                   )}%20anunciado%20por%20${encodeURIComponent(formatCurrencyBRL(car.price))}.`}
                   target="_blank"

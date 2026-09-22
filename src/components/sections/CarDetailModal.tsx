@@ -23,7 +23,7 @@ export default function CarDetailModal({ car, onClose }: CarDetailModalProps) {
     });
     setTimeout(() => {
       window.open(
-        `https://wa.me/5534991610075?text=Ol%C3%A1%2C%20quero%20solicitar%20a%20reserva%20exclusiva%20da%20${encodeURIComponent(
+        `https://wa.me/5511999990000?text=Ol%C3%A1%2C%20quero%20solicitar%20a%20reserva%20exclusiva%20da%20${encodeURIComponent(
           car.name
         )}%20(${encodeURIComponent(formatCurrencyBRL(car.price))}).`,
         "_blank"

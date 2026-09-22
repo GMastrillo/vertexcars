@@ -41,15 +41,15 @@ export default function Footer() {
             <div className="space-y-2.5 text-xs">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-red-500 flex-shrink-0 mt-0.5" />
-                <span>Rua Major Gote, 1645 - Patos de Minas / MG • CEP 38700-207</span>
+                <span>Av. Europa, 1500 - Jardins, São Paulo / SP • CEP 01449-000</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Clock className="w-4 h-4 text-red-500 flex-shrink-0" />
-                <span>Seg a Sex: 08h às 18h | Sáb: 08h às 13h</span>
+                <span>Seg a Sex: 08h às 19h | Sáb: 09h às 16h</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-red-500 flex-shrink-0" />
-                <span>(34) 3818-7777</span>
+                <span>(11) 3198-5000</span>
               </div>
             </div>
           </div>
@@ -61,13 +61,13 @@ export default function Footer() {
               Converse diretamente com nosso consultor especialista para reservas ou agendamento de test-drive.
             </p>
             <a
-              href="https://wa.me/5534991610075?text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20com%20um%20consultor%20da%20VertexCars."
+              href="https://wa.me/5511999990000?text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20com%20um%20consultor%20da%20VertexCars."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-red-600 hover:bg-red-500 text-white font-bold text-xs uppercase tracking-wider transition-colors shadow-lg shadow-red-600/30 font-display"
             >
               <MessageSquare className="w-4 h-4" />
-              <span>(34) 99161-0075</span>
+              <span>(11) 99999-0000</span>
             </a>
             <div className="flex items-center gap-3 pt-1 text-zinc-400">
               <a

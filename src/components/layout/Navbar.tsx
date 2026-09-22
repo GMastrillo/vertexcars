@@ -76,7 +76,7 @@ export default function Navbar({ show = false }: NavbarProps) {
             <span>Curadoria Certificada</span>
           </div>
           <a
-            href="https://wa.me/5534991610075?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20ve%C3%ADculos%20em%20estoque%20na%20VertexCars."
+            href="https://wa.me/5511999990000?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20ve%C3%ADculos%20em%20estoque%20na%20VertexCars."
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2.5 px-6 py-2.5 rounded-full text-xs font-bold uppercase tracking-[0.2em] bg-red-600 hover:bg-red-500 text-white transition-all shadow-lg hover:shadow-red-600/30 transform hover:-translate-y-0.5 font-display whitespace-nowrap"
@@ -112,7 +112,7 @@ export default function Navbar({ show = false }: NavbarProps) {
             ))}
           </nav>
           <a
-            href="https://wa.me/5534991610075?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20ve%C3%ADculos%20em%20estoque%20na%20VertexCars."
+            href="https://wa.me/5511999990000?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20ve%C3%ADculos%20em%20estoque%20na%20VertexCars."
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-red-600 text-white font-bold text-xs uppercase tracking-[0.2em] font-display"

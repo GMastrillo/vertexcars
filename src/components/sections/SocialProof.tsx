@@ -16,7 +16,7 @@ export default function SocialProof() {
     },
     {
       client: "Marcelo Albuquerque",
-      role: "Empresário do Agronegócio • Patos de Minas",
+      role: "Empresário do Agronegócio • Ribeirão Preto / SP",
       car: "Porsche Cayenne Turbo GT",
       comment:
         "Já é o terceiro veículo que compro com a equipe da VertexCars. A transparência na avaliação do meu seminovo e a agilidade no financiamento são incomparáveis.",

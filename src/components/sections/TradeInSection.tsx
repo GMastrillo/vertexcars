@@ -19,7 +19,7 @@ export default function TradeInSection() {
       km || "N/A"
     )}%0A%E2%80%A2%20Contato%3A%20${encodeURIComponent(phone || "N/A")}`;
 
-    window.open(`https://wa.me/5534991610075?text=${text}`, "_blank");
+    window.open(`https://wa.me/5511999990000?text=${text}`, "_blank");
   };
 
   return (

@@ -264,7 +264,7 @@ export default function InventorySection({ onSelectCar }: InventorySectionProps)
                         <span>Ficha Técnica</span>
                       </button>
                       <a
-                        href={`https://wa.me/5534991610075?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20${encodeURIComponent(
+                        href={`https://wa.me/5511999990000?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20${encodeURIComponent(
                           car.name
                         )}.`}
                         target="_blank"

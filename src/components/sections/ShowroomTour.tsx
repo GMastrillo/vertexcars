@@ -62,7 +62,7 @@ export default function ShowroomTour() {
               </h3>
             </div>
             <a
-              href="https://wa.me/5534991610075?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20visita%20ao%20showroom%20da%20VertexCars."
+              href="https://wa.me/5511999990000?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20visita%20ao%20showroom%20da%20VertexCars."
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-xl bg-white text-black font-bold text-xs uppercase tracking-wider hover:bg-zinc-200 transition-colors font-display"
