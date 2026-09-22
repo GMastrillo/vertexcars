@@ -1,3 +1,8 @@
+---
+name: dev-lp
+description: Diretrizes de desenvolvimento para Landing Pages Premium de alto impacto visual (estilo editorial de luxo, Awwwards, anti-IA clichês, vídeo cinemático nativo e scroll suave com Lenis/GSAP).
+---
+
 # Diretrizes de Desenvolvimento — Landing Pages Premium
 
 > Use este arquivo como `AGENTS.md`, `CLAUDE.md` ou `.cursor/rules/landing-premium.mdc` na raiz do projeto.
