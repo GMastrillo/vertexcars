@@ -34,14 +34,14 @@ export default function FAQSection() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs text-zinc-400 uppercase tracking-widest mb-3">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs text-zinc-400 uppercase tracking-[0.25em] mb-3 font-display">
             <HelpCircle className="w-3.5 h-3.5 text-red-500" />
             <span>Tire Suas Dúvidas</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight uppercase">
+          <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight uppercase font-display">
             Respondemos Suas Dúvidas
           </h2>
-          <p className="mt-2 text-zinc-400 text-sm">
+          <p className="mt-2 text-zinc-400 text-sm font-light">
             Tudo o que você precisa saber para adquirir seu próximo supercarro com tranquilidade.
           </p>
         </div>
@@ -69,7 +69,7 @@ export default function FAQSection() {
                   />
                 </button>
                 {isOpen && (
-                  <div className="px-6 pb-6 text-xs sm:text-sm text-zinc-400 leading-relaxed border-t border-white/5 pt-4">
+                  <div className="px-6 pb-6 text-xs sm:text-sm text-zinc-400 leading-relaxed border-t border-white/5 pt-4 font-light">
                     {faq.a}
                   </div>
                 )}
@@ -80,14 +80,14 @@ export default function FAQSection() {
 
         {/* Direct Contact Prompt */}
         <div className="mt-12 text-center p-6 rounded-2xl bg-white/5 border border-white/5">
-          <p className="text-xs text-zinc-400">
+          <p className="text-xs text-zinc-400 font-light">
             Ainda tem alguma pergunta específica sobre um modelo ou configuração?
           </p>
           <a
-            href="https://wa.me/5534991610075?text=Ol%C3%A1%2C%20tenho%20uma%20d%C3%BAvida%20sobre%20as%20condi%C3%A7%C3%B5es%20da%20Ibiza%20Motors."
+            href="https://wa.me/5534991610075?text=Ol%C3%A1%2C%20tenho%20uma%20d%C3%BAvida%20sobre%20as%20condi%C3%A7%C3%B5es%20da%20VertexCars."
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-3 inline-flex items-center gap-2 text-xs font-bold text-red-500 hover:text-red-400 uppercase tracking-wider"
+            className="mt-3 inline-flex items-center gap-2 text-xs font-bold text-red-500 hover:text-red-400 uppercase tracking-wider font-display"
           >
             <MessageSquare className="w-3.5 h-3.5" />
             <span>Falar com o Gerente Geral no WhatsApp →</span>

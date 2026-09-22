@@ -1,20 +1,24 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Syne, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { SmoothScroll } from "@/components/providers/smooth-scroll";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const fontDisplay = Syne({
+  variable: "--font-display",
   subsets: ["latin"],
+  display: "swap",
+  weight: ["400", "500", "600", "700", "800"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const fontSans = Plus_Jakarta_Sans({
+  variable: "--font-sans",
   subsets: ["latin"],
+  display: "swap",
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
-  title: "Ibiza Motors | Especialista Porsche & Veículos de Alta Performance",
+  title: "VertexCars | Curadoria & Veículos de Alta Performance",
   description: "Concessionária premium de alta performance. Modelos exclusivos, certificação e experiência digital imersiva.",
 };
 
@@ -26,11 +30,12 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${fontDisplay.variable} ${fontSans.variable} h-full antialiased font-sans bg-black`}
     >
-      <body className="min-h-full flex flex-col bg-[#07080a] text-slate-100 selection:bg-red-600 selection:text-white">
+      <body className="min-h-full flex flex-col bg-black text-slate-100 selection:bg-red-600 selection:text-white">
         <SmoothScroll>{children}</SmoothScroll>
       </body>
     </html>
   );
 }
+

@@ -19,7 +19,7 @@ export default function SocialProof() {
       role: "Empresário do Agronegócio • Patos de Minas",
       car: "Porsche Cayenne Turbo GT",
       comment:
-        "Já é o terceiro veículo que compro com a equipe da Ibiza. A transparência na avaliação do meu seminovo e a agilidade no financiamento são incomparáveis.",
+        "Já é o terceiro veículo que compro com a equipe da VertexCars. A transparência na avaliação do meu seminovo e a agilidade no financiamento são incomparáveis.",
       date: "Entregue há 1 mês",
       rating: 5,
     },
@@ -39,13 +39,13 @@ export default function SocialProof() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-xs uppercase tracking-widest text-red-500 font-semibold block mb-2">
+          <span className="text-xs uppercase tracking-[0.25em] text-red-500 font-semibold block mb-2 font-display">
             Entregas e Histórias Reais
           </span>
-          <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight uppercase">
+          <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight uppercase font-display">
             Quem Compra, Faz Parte da Nossa História
           </h2>
-          <p className="mt-2 text-zinc-400 text-sm sm:text-base">
+          <p className="mt-2 text-zinc-400 text-sm sm:text-base font-light">
             Mais de 1.400 clientes atendidos e sonhos realizados em todo o território nacional.
           </p>
         </div>

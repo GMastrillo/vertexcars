@@ -18,14 +18,15 @@ import { Vehicle } from "@/data/vehicles";
 
 export default function ClientDealershipPage() {
   const [selectedCar, setSelectedCar] = useState<Vehicle | null>(null);
+  const [isVideoEnded, setIsVideoEnded] = useState(false);
 
   return (
-    <div className="min-h-screen bg-[#000407] text-slate-100 selection:bg-red-600 selection:text-white relative">
-      <Navbar />
+    <div className="min-h-screen bg-black text-slate-100 selection:bg-red-600 selection:text-white relative">
+      <Navbar show={isVideoEnded} />
 
       <main>
         {/* 1. Premier Hero: 360-degree Scroll-driven Canvas Rotation */}
-        <Porsche360Hero />
+        <Porsche360Hero onVideoEnded={() => setIsVideoEnded(true)} />
 
         {/* 2. Interactive Model Switcher (911 GT3 RS, Cayenne Turbo GT, Taycan Turbo S) */}
         <HeroSection />

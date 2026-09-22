@@ -32,14 +32,14 @@ export default function ShowroomTour() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-xs uppercase tracking-widest text-red-500 font-semibold block mb-2">
-            A Experiência Ibiza Motors
+          <span className="text-xs uppercase tracking-[0.25em] text-red-500 font-semibold block mb-2 font-display">
+            A Experiência VertexCars
           </span>
-          <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight uppercase">
+          <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight uppercase font-display">
             A Loja Por Dentro
           </h2>
-          <p className="mt-2 text-zinc-400 text-sm sm:text-base">
-            Mais do que vender supercarros, oferecemos um padrão de atendimento exclusivo para os apaixonados por Porsche.
+          <p className="mt-2 text-zinc-400 text-sm sm:text-base font-light">
+            Mais do que vender supercarros, oferecemos um padrão de curadoria e atendimento exclusivo para entusiastas da alta performance.
           </p>
         </div>
 
@@ -47,25 +47,25 @@ export default function ShowroomTour() {
         <div className="relative aspect-[16/9] max-h-[500px] w-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl mb-14 group">
           <Image
             src="/images/porsche_showroom.jpg"
-            alt="Showroom Ibiza Motors Porsche"
+            alt="Showroom VertexCars"
             fill
             className="object-cover object-center group-hover:scale-105 transition-transform duration-700"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
           <div className="absolute bottom-6 left-6 right-6 flex flex-col sm:flex-row items-start sm:items-end justify-between gap-4">
             <div>
-              <span className="px-3 py-1 rounded-full text-[11px] font-bold uppercase bg-red-600 text-white tracking-wider inline-block mb-2">
+              <span className="px-3 py-1 rounded-full text-[11px] font-bold uppercase bg-red-600 text-white tracking-wider inline-block mb-2 font-display">
                 Cerimônia de Entrega VIP
               </span>
-              <h3 className="text-2xl sm:text-3xl font-black text-white">
-                O momento inesquecível da entrega da sua nova Porsche
+              <h3 className="text-2xl sm:text-3xl font-black text-white font-display">
+                O momento inesquecível da entrega da sua nova máquina
               </h3>
             </div>
             <a
-              href="https://wa.me/5534991610075?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20visita%20ao%20showroom%20da%20Ibiza%20Motors."
+              href="https://wa.me/5534991610075?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20visita%20ao%20showroom%20da%20VertexCars."
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 rounded-xl bg-white text-black font-bold text-xs uppercase tracking-wider hover:bg-zinc-200 transition-colors"
+              className="px-6 py-3 rounded-xl bg-white text-black font-bold text-xs uppercase tracking-wider hover:bg-zinc-200 transition-colors font-display"
             >
               Agendar Visita ao Showroom
             </a>
