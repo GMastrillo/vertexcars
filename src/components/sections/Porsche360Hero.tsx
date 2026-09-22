@@ -16,6 +16,11 @@ export function PorscheHero({ onVideoEnded }: PorscheHeroProps) {
     onVideoEnded?.();
   };
 
+  const handleError = () => {
+    console.warn("Vídeo encontrou um erro ou foi bloqueado, revelando interface.");
+    handleEnded();
+  };
+
   // Resilient video playback and audio handling
   useEffect(() => {
     const video = videoRef.current;
@@ -23,13 +28,14 @@ export function PorscheHero({ onVideoEnded }: PorscheHeroProps) {
 
     // Audio calibration: Low/Medium (0.35)
     video.volume = 0.35;
-    video.muted = false;
 
     const attemptPlay = async () => {
+      // First ensure the video is playing (muted allows universal autoplay on Chrome/Safari/iOS)
       try {
+        video.muted = false;
         await video.play();
       } catch {
-        // Browser autoplay policy prevented unmuted autoplay: play muted first
+        // Browser autoplay policy blocked unmuted play: fallback to muted playback
         video.muted = true;
         await video.play().catch(() => {});
 
@@ -96,14 +102,18 @@ export function PorscheHero({ onVideoEnded }: PorscheHeroProps) {
       {/* 1. Cinematic Native Video - Single Play (loop=false, stops on last frame) */}
       <video
         ref={videoRef}
-        src="/porsche1.mp4"
         autoPlay
+        muted
         playsInline
+        preload="auto"
         loop={false}
         onTimeUpdate={handleTimeUpdate}
         onEnded={handleEnded}
+        onError={handleError}
         className="absolute inset-0 w-full h-full object-cover z-0 bg-black"
-      />
+      >
+        <source src="/porsche.mp4" type="video/mp4" />
+      </video>
 
       {/* 2. Studio Lighting Depth Gradients - Pitch Black integration */}
       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-10 pointer-events-none" />

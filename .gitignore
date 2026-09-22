@@ -25,6 +25,7 @@
 *.pem
 *.mp4
 !/public/porsche.mp4
+!/public/porsche1.mp4
 /porsche/
 /public/porsche/
 
